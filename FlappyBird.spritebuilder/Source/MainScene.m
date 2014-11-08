@@ -223,7 +223,7 @@
     
     // Loop the clouds
     for (CCNode *cloud in _clouds) {
-        // get the world position for the bush
+        // get the world position for the cloud
         CGPoint cloudWorldPosition = [_parallaxBackground convertToWorldSpace:cloud.position];
         // get the screen position of the cloud
         CGPoint cloudScreenPosition = [self convertToNodeSpace:cloudWorldPosition];
